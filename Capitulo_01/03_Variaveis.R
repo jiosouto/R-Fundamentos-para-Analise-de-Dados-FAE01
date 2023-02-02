@@ -26,3 +26,9 @@ help("typeof")
 var3 = c("primeiro", "segundo", "terceiro")
 var3
 mode(var3)
+
+
+# Uma variável pode ser uma função
+var4 = function(x) {x+3}
+var4
+mode(var4)
