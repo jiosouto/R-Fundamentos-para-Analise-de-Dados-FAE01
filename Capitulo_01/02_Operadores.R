@@ -42,3 +42,19 @@ print(x <= 8)
 print(x >= 8)
 print(x == 8)
 print(x != 8)
+
+
+# Operadores lógicos
+
+# And
+(x==8) & (x==6)
+(x==7) & (x>=5)
+(x==8) & (x==7)
+
+# Or
+(x==8) | (x>5)
+(x==8) | (x>=5)
+
+# Not
+x > 8
+print(!x > 8)
