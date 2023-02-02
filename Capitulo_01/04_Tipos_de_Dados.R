@@ -52,3 +52,14 @@ char3 = c("Data", "Scicence", "Academy")
 char3
 mode(char3)
 typeof(char3)
+
+
+# Complex
+compl = 2.5 + 4i
+compl
+mode(compl)
+typeof(compl)
+
+sqrt(-1) 
+sqrt(-1+0i)
+sqrt(as.complex(-1)) 
