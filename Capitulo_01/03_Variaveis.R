@@ -20,3 +20,9 @@ var2
 mode(var2)
 typeof(var2)
 help("typeof")
+
+
+# Uma variável pode ser uma lista de elementos
+var3 = c("primeiro", "segundo", "terceiro")
+var3
+mode(var3)
