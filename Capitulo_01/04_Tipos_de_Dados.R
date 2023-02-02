@@ -63,3 +63,16 @@ typeof(compl)
 sqrt(-1) 
 sqrt(-1+0i)
 sqrt(as.complex(-1)) 
+
+
+# Logic
+x = 1; y = 2 
+z = x > y
+z
+class(z)
+
+u = TRUE; v = FALSE 
+class(u)
+u & v
+u | v   
+!u
