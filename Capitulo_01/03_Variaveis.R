@@ -38,3 +38,14 @@ mode(var4)
 var5 = as.character(var1)
 var5
 mode(var5)
+
+
+# Atribuindo valores a objetos
+x <- c(1,2,3)
+x
+x1 = c(1,2,3)
+x1
+c(1,2,3) -> y
+y
+assign("x", c(6.3,4,-2))
+x
