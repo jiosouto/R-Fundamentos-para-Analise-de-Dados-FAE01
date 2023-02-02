@@ -35,3 +35,20 @@ as.integer('Joe')
 as.integer(TRUE)
 as.integer(FALSE)
 as.integer('TRUE')
+
+
+# Character
+char1 = 'A'
+char1
+mode(char1)
+typeof(char1)
+
+char2 = "cientista"
+char2
+mode(char2)
+typeof(char2)
+
+char3 = c("Data", "Scicence", "Academy")
+char3
+mode(char3)
+typeof(char3)
