@@ -12,3 +12,11 @@ var1
 mode(var1)
 help("mode")
 sqrt(var1)
+
+
+# Podemos atribuir o valor de uma variável a outra variável
+var2 = var1
+var2
+mode(var2)
+typeof(var2)
+help("typeof")
