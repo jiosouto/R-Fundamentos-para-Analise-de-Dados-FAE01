@@ -1,11 +1,8 @@
 # Primeiros Passos na Linguagem R
 
-# Obs: Caso tenha problemas com a acentuação, consulte este link:
-# https://support.rstudio.com/hc/en-us/articles/200532197-Character-Encoding
-
 # Configurando o diretório de trabalho
-# Coloque entre aspas o diretório de trabalho que você está usando no seu computador
-# Não use diretórios com espaço no nome
+# Colocar entre aspas o diretório de trabalho que será utilizado
+# Não usar diretórios com espaço no nome
 setwd("C:/DSA/BigDataRAzure/Cap01")
 getwd()
 
