@@ -76,3 +76,11 @@ class(u)
 u & v
 u | v   
 !u
+
+
+# Operações com 0
+5/0
+0/5
+
+# Erro
+'Joe'/5
