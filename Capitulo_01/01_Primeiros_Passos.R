@@ -6,7 +6,7 @@
 # Configurando o diretório de trabalho
 # Coloque entre aspas o diretório de trabalho que você está usando no seu computador
 # Não use diretórios com espaço no nome
-setwd("C:/FCD/BigDataRAzure/Cap02")
+setwd("C:/DSA/BigDataRAzure/Cap01")
 getwd()
 
 
@@ -48,3 +48,21 @@ detach(package:ggplot2)
 # Se souber o nome da função
 help(mean)
 ?mean
+
+
+# Para buscar mais opções sobre uma função, use o pacote SOS
+install.packages("sos")
+library(sos)
+findFn("fread")
+
+
+# Se não souber o nome da função
+help.search('randomForest')
+help.search('matplot')
+??matplot
+RSiteSearch('matplot')
+example('matplot')
+
+
+# Sair
+q()
