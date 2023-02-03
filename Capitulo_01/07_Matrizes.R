@@ -22,3 +22,7 @@ matrix (c( 1,2,3,4,5,6), nc = 2)
 ?matrix
 
 
+# Matrizes precisam ter um número de elementos que seja múltiplo do número de linhas
+matrix (c(1,2,3,4,5), nc = 2)
+
+
