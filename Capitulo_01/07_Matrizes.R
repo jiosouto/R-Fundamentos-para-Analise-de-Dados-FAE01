@@ -63,3 +63,14 @@ U
 solve(W)
 
 
+# Multiplicação de Matrizes
+mat1 <- matrix(c(2,3,4,5), nr = 2)
+mat1
+mat2 <- matrix(c(6,7,8,9), nr = 2)
+mat2
+mat1 * mat2
+mat1 / mat2
+mat1 + mat2
+mat1 - mat2
+
+
