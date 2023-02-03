@@ -46,3 +46,14 @@ class(iris)
 typeof(iris)
 
 
+# Listas: coleção de diferentes objetos
+# Diferentes tipos de dados são possíveis e comuns
+
+lista1 <- list(a = matriz1, b = vetor1)
+lista1
+length(lista1)
+mode(lista1)
+class(lista1)
+typeof(lista1)
+
+
