@@ -51,3 +51,11 @@ vetor = diag(matriz)
 diag(vetor)
 
 
+# Transposta da matriz
+W <- matrix (c(2,4,8,12 ), nr = 2, ncol = 2)
+W
+t(W)
+U <- t(W)
+U
+
+
