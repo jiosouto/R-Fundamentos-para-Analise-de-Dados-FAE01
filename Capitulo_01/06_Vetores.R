@@ -57,3 +57,9 @@ b[3]
 b[4]
 
 
+# Combinando vetores
+v1 = c(2, 3, 5) 
+v2 = c("aa", "bb", "cc", "dd", "ee") 
+c(v1, v2) 
+
+
