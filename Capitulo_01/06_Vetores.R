@@ -31,3 +31,9 @@ vetor_integer  = c(2, 4, 6)
 vetor_integer
 
 
+# Utilizando seq()
+vetor1 = seq(1:10)
+vetor1
+is.vector(vetor1)
+
+
