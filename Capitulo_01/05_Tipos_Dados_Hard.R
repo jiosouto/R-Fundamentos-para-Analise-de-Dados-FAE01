@@ -16,3 +16,13 @@ class(vetor1)
 typeof(vetor1)
 
 
+# Matriz: possui 2 dimensões e 1 tipo de dado 
+
+matriz1 <- matrix(1:20, nrow = 2)
+matriz1
+length(matriz1)
+mode(matriz1)
+class(matriz1)
+typeof(matriz1)
+
+
