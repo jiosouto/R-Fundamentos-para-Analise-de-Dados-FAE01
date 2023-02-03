@@ -26,3 +26,9 @@ matrix (c( 1,2,3,4,5,6), nc = 2)
 matrix (c(1,2,3,4,5), nc = 2)
 
 
+# Criando matrizes a partir de vetores e preenchendo a partir das linhas
+meus_dados = c(1:10)
+matrix(data = meus_dados, nrow = 5, ncol = 2, byrow = T)
+matrix(data = meus_dados, nrow = 5, ncol = 2)
+
+
