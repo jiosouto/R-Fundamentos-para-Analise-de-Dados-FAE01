@@ -36,3 +36,13 @@ class(array1)
 typeof(array1)
 
 
+# Data Frames: dados de diferentes tipos
+# Maneira mais fácil de explicar data frames: é uma matriz com diferentes tipos de dados
+
+View(iris)
+length(iris)
+mode(iris)
+class(iris)
+typeof(iris)
+
+
