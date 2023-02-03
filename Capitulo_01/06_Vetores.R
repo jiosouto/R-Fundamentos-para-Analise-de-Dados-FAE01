@@ -43,3 +43,17 @@ vetor2
 is.vector(vetor2)
 
 
+# Indexação de vetores
+a <- c(1,2,3,4,5)
+a
+a[1]
+a[6]
+
+b <- c("Data", "Science", "Academy")
+b
+b[1]
+b[2]
+b[3]
+b[4]
+
+
