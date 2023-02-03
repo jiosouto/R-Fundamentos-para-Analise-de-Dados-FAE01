@@ -14,3 +14,13 @@ vetor_caracter
 # Vetor de floats
 vetor_numerico = c(1.90, 45.3, 300.5) 
 vetor_numerico
+
+
+# Vetor de valores complexos
+vetor_complexo = c(5.2+3i, 3.8+4i)
+vetor_complexo
+
+
+# Vetor de valores lógicos
+vetor_logico = c(TRUE, FALSE, TRUE, FALSE, FALSE) 
+vetor_logico
