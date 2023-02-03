@@ -59,3 +59,7 @@ U <- t(W)
 U
 
 
+# Obtendo uma matriz inversa
+solve(W)
+
+
