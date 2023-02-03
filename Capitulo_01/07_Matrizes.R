@@ -12,3 +12,13 @@ getwd()
 matrix (c(1,2,3,4,5,6), nr = 2)
 matrix (c(1,2,3,4,5,6), nr = 3)
 matrix (c(1,2,3,4,5,6), nr = 6)
+
+
+# Número de Colunas
+matrix (c( 1,2,3,4,5,6), nc = 2)
+
+
+# Help
+?matrix
+
+
