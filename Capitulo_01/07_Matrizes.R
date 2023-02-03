@@ -74,3 +74,10 @@ mat1 + mat2
 mat1 - mat2
 
 
+# Multiplicando Matriz com Vetor
+x = c(1:4)
+x
+y <- matrix(c(2,3,4,5), nr = 2)
+x * y 
+
+
