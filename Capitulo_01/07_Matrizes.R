@@ -32,3 +32,12 @@ matrix(data = meus_dados, nrow = 5, ncol = 2, byrow = T)
 matrix(data = meus_dados, nrow = 5, ncol = 2)
 
 
+# Fatiando a Matriz
+mat <- matrix(c(2,3,4,5), nr = 2)
+mat
+mat[1,2]
+mat[2,2]
+mat[1,3]
+mat[,2]
+
+
