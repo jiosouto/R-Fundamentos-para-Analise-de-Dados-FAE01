@@ -9,3 +9,8 @@ getwd()
 # Vetor de strings
 vetor_caracter = c("Data", "Science", "Academy")
 vetor_caracter
+
+
+# Vetor de floats
+vetor_numerico = c(1.90, 45.3, 300.5) 
+vetor_numerico
