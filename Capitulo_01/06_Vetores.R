@@ -74,3 +74,9 @@ x * y
 x / y
 
 
+# Somando vetores com números diferentes de elementos
+alfa = c(10, 20, 30) 
+beta = c(1, 2, 3, 4, 5, 6, 7, 8, 9) 
+alfa + beta 
+
+
