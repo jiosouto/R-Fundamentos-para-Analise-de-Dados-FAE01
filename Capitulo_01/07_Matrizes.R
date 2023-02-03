@@ -81,3 +81,10 @@ y <- matrix(c(2,3,4,5), nr = 2)
 x * y 
 
 
+# Nomeando a Matriz
+mat3 <- matrix(c('Terra', 'Marte', 'Saturno', 'Netuno'), nr = 2)
+mat3
+dimnames(mat3) = (list( c("Linha1", "Linha2"), c("Coluna1", "Coluna2")))
+mat3
+
+
