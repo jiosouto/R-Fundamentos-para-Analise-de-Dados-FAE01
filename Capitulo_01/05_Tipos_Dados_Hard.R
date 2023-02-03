@@ -26,3 +26,13 @@ class(matriz1)
 typeof(matriz1)
 
 
+# Array: possui 2 ou mais dimensões e 1 tipo de dado 
+
+array1 <- array(1:5, dim = c(3,3,3))
+array1
+length(array1)
+mode(array1)
+class(array1)
+typeof(array1)
+
+
