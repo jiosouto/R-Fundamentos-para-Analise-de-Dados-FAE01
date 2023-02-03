@@ -37,3 +37,9 @@ vetor1
 is.vector(vetor1)
 
 
+# Utilizando rep()
+vetor2 = rep(1:5)
+vetor2
+is.vector(vetor2)
+
+
