@@ -46,3 +46,8 @@ matriz = 1:3
 diag(matriz)
 
 
+# Extraindo vetor de uma matriz diagonal
+vetor = diag(matriz)
+diag(vetor)
+
+
