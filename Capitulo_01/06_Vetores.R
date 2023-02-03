@@ -80,3 +80,9 @@ beta = c(1, 2, 3, 4, 5, 6, 7, 8, 9)
 alfa + beta 
 
 
+# Vetor Nomeado
+v = c("Nelson", "Mandela") 
+v
+names(v) = c("Nome", "Sobrenome") 
+v
+v["Nome"] 
