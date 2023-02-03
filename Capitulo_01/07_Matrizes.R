@@ -88,3 +88,7 @@ dimnames(mat3) = (list( c("Linha1", "Linha2"), c("Coluna1", "Coluna2")))
 mat3
 
 
+# Identificando linhas e colunas no momento de criação da Matriz
+matrix (c(1,2,3,4), nr = 2, nc = 2, dimnames = list(c("Linha 1", "Linha 2" ), c( "Coluna 1", " Coluna 2") ))
+
+
