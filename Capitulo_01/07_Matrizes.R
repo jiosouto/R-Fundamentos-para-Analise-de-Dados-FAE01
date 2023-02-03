@@ -92,3 +92,14 @@ mat3
 matrix (c(1,2,3,4), nr = 2, nc = 2, dimnames = list(c("Linha 1", "Linha 2" ), c( "Coluna 1", " Coluna 2") ))
 
 
+# Combinando Matrizes
+mat4 <- matrix(c(2,3,4,5), nr = 2)
+mat4
+mat5 <- matrix(c(6,7,8,9), nr = 2)
+mat5
+cbind(mat4, mat5)
+rbind(mat4, mat5)
+
+
+# Desconstruindo a Matriz
+c(mat4)
