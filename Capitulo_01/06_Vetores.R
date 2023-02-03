@@ -63,3 +63,14 @@ v2 = c("aa", "bb", "cc", "dd", "ee")
 c(v1, v2) 
 
 
+# Operações com Vetores
+x = c(1, 3, 5, 7) 
+y = c(2, 4, 6, 8)
+
+x * 5
+x + y
+x - y
+x * y
+x / y
+
+
