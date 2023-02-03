@@ -24,3 +24,10 @@ vetor_complexo
 # Vetor de valores lógicos
 vetor_logico = c(TRUE, FALSE, TRUE, FALSE, FALSE) 
 vetor_logico
+
+
+# Vetor de números inteiros
+vetor_integer  = c(2, 4, 6)
+vetor_integer
+
+
