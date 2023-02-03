@@ -57,3 +57,18 @@ class(lista1)
 typeof(lista1)
 
 
+# Funções também são vistas como objetos em R
+
+func1 <- function(x) {
+  var1 <- x * x
+  return(var1)
+}
+
+func1(5)
+class(func1)
+
+
+# Removendo objetos
+objects()
+rm(array1, func1)
+objects()
