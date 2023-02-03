@@ -41,3 +41,8 @@ mat[1,3]
 mat[,2]
 
 
+# Criando uma matriz diagonal
+matriz = 1:3
+diag(matriz)
+
+
