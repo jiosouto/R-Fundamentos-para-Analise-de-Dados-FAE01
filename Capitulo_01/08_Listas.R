@@ -46,3 +46,26 @@ lista1
 
 ?rnorm
 
+# Slicing (Fatiamento) da Lista
+lista1[1]
+lista1[2]
+lista1[[2]][1]  
+lista1[[2]][1] = "Monica" 
+lista1
+
+# Para nomear os elementos - Listas Nomeadas
+names(lista1) <- c("inteiros", "caracteres", "numéricos")
+lista1
+
+vec_num <- 1:4
+vec_char <- c("A", "B", "C", "D")
+
+lista2 <- list(Numeros = vec_num, Letras = vec_char)
+lista2
+
+
+# Nomear os elementos diretamente
+lista2 <- list(elemento1 = 3:5, elemento2 = c(7.2,3.5))
+lista2
+
+
