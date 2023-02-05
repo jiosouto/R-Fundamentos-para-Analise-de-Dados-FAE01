@@ -39,3 +39,31 @@ tolower("Histogramas e Elementos de Dados")
 toupper("Histogramas e Elementos de Dados")
 
 
+# Usando stringr
+library(stringr)
+
+
+# Dividindo uma string em caracteres
+?strsplit
+strsplit("Histogramas e Elementos de Dados", NULL)
+
+
+# Dividindo uma string em caracteres, após o caracter espaço
+strsplit("Histogramas e Elementos de Dados", " ")
+
+
+# Trabalhando com strings
+string1 <- c("Esta é a primeira parte da minha string e será a primeira parte do meu vetor", 
+             "Aqui a minha string continua, mas será transformada no segundo vetor")
+
+string1
+
+string2 <- c("Precisamos testar outras strings - @???!§$",
+             "Análise de Dados em R")
+
+string2
+
+# Adicionando 2 strings
+str_c(c(string1, string2), sep = "")
+
+
