@@ -67,3 +67,29 @@ string2
 str_c(c(string1, string2), sep = "")
 
 
+# Podemos contar quantas vezes um caracter aparece no texto
+str_count(string2, "s")
+
+
+# Localiza a primeira e última posição em que o caracter aparece na string
+str_locate_all(string2, "s")
+
+
+# Substitui a primeira ocorrência de um caracter
+str_replace(string2, "\\s", "")
+
+
+# Substitui todas as ocorrências de um caracter
+str_replace_all(string2, "\\s", "")
+
+
+# Detectando padrões nas strings
+string1 <- "17 jan 2001"
+string2 <- "1 jan 2001"
+padrao <- "jan 20"
+grepl(pattern = padrao, x = string1)
+padrao <- "jan20"
+grepl(pattern = padrao, x = string1)
+
+
+
