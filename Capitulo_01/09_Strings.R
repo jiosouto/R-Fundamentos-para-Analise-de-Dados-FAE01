@@ -25,3 +25,17 @@ cat(nome, sobrenome)
 sprintf("A %s é nota %d", "Data Science Academy", 10) 
 
 
+# Extraindo parte da string
+texto <- "Isso é uma string!"
+substr(texto, start=12, stop=17) 
+?substr
+
+# Contando o número de caracteres
+nchar(texto)
+
+
+# Alterando a capitalização
+tolower("Histogramas e Elementos de Dados")
+toupper("Histogramas e Elementos de Dados")
+
+
