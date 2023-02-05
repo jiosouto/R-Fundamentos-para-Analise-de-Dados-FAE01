@@ -86,3 +86,13 @@ length(lista1)
 lista1$caracteres[2]
 
 
+# Mode dos elementos
+mode(lista1$numéricos)
+mode(lista1$caracteres)
+
+
+# Combinando 2 listas
+lista3 <- c(lista1, lista2)
+lista3
+
+
