@@ -1,4 +1,4 @@
-# Listas, Operações com Listas e Listas Nomeadas
+# Operações com Strings
 
 # Configurando o diretório de trabalho
 # Colocar entre aspas o diretório de trabalho que você utilizado
