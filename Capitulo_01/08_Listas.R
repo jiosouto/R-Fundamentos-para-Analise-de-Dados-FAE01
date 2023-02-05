@@ -96,3 +96,17 @@ lista3 <- c(lista1, lista2)
 lista3
 
 
+# Transformando um vetor em lista
+v = c(1:3)
+v
+l  = as.list(v)
+l
+
+
+# Unindo 2 elementos em uma lista
+mat = matrix(1:4, nrow = 2)
+mat
+vec = c(1:9)
+vec
+lst = list(mat, vec)
+lst
