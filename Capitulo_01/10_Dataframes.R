@@ -89,3 +89,30 @@ colnames(pesq) <- c("Var 1", "Var 2", "Var 3", "Var 4", "Var 5")
 rownames(pesq) <- c("Obs 1", "Obs 2", "Obs 3", "Obs 4", "Obs 5")
 pesq
 
+
+# Carregando um arquivo csv
+?read.csv
+pacientes <- data.frame(read.csv(file = 'pacientes.csv', header = TRUE, sep = ","))
+
+
+# Visualizando o dataset
+View(pacientes)
+head(pacientes)
+summary(pacientes)
+
+
+# Visualizando as variáveis
+pacientes$Diabete
+pacientes$status
+pacientes$Status
+
+
+# Histograma
+hist(pacientes$Idade)
+
+
+# Combinando dataframes
+dataset_final <- merge(pesq, pacientes)
+dataset_final
+
+
