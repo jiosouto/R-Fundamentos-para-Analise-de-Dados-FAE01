@@ -92,7 +92,7 @@ pesq
 
 # Carregando um arquivo csv
 ?read.csv
-pacientes <- data.frame(read.csv(file = 'pacientes.csv', header = TRUE, sep = ","))
+pacientes <- data.frame(read.csv(file = 'Dados/pacientes.csv', header = TRUE, sep = ","))
 
 
 # Visualizando o dataset
