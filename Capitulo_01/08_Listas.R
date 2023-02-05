@@ -69,3 +69,20 @@ lista2 <- list(elemento1 = 3:5, elemento2 = c(7.2,3.5))
 lista2
 
 
+# Trabalhando com elementos específicos da lista
+names(lista1) <- c("inteiros", "caracteres", "numéricos")
+lista1
+
+lista1$caracteres
+length(lista1$inteiros)
+lista1$inteiros
+
+
+# Verificar o comprimento da lista
+length(lista1)
+
+
+# Pode-se extrair um elemento específico dentro de cada nível da lista
+lista1$caracteres[2]
+
+
