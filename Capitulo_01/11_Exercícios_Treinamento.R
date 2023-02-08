@@ -56,3 +56,8 @@ plot(iris$Sepal.Length, iris$Sepal.Width)
 iris1 <- subset(iris, Sepal.Length > 7)
 View(iris1)
 
+
+# Exercícios 9 (Desafio) - Crie um dataframe que seja cópia do dataframe iris e usando a função slice(), 
+# divida o dataframe em um subset de 15 linhas
+# Dica 1: você vai ter que instalar e carregar o pacote dplyr
+# Dica 2: Consulte o help para aprender como usar a função slice()
