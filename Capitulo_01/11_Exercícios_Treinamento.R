@@ -34,3 +34,7 @@ View(df)
 names(df) = c("config", "esfc", "chang")
 names(df) = c("Col1", "Col2", "Col3")
 df
+
+
+# Exercício 6 - Imprima na tela o dataframe iris, 
+# verifique quantas dimensões existem no dataframe iris, imprima um resumo do dataset
