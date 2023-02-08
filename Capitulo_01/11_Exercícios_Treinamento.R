@@ -68,3 +68,8 @@ library(dplyr)
 ?slice
 slice(novo_iris, 1:15)
 class(slice(novo_iris, 1:15))
+
+
+# Exercícios 10 - Use a função filter no seu novo dataframe criado no item anterior 
+# e retorne apenas valores em que Sepal.Length > 6
+# Dica: Use o RSiteSearch para aprender como usar a função filter
