@@ -17,3 +17,7 @@ mat
 
 
 # Exercício 3 - Crie uma lista unindo o vetor e matriz criados anteriormente
+lst <- list(vec, mat)
+lst
+
+
