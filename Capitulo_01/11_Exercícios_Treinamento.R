@@ -38,3 +38,9 @@ df
 
 # Exercício 6 - Imprima na tela o dataframe iris, 
 # verifique quantas dimensões existem no dataframe iris, imprima um resumo do dataset
+iris
+class(iris)
+dim(iris)
+summary(iris)
+str(iris)
+View(iris)
