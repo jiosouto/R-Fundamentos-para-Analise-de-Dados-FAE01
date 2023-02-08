@@ -52,3 +52,7 @@ plot(iris$Sepal.Length, iris$Sepal.Width)
 
 # Exercício 8 - Usando s função subset, crie um novo dataframe com o conjunto de dados do dataframe iris em que Sepal.Length > 7
 # Dica: consulte o help para aprender como usar a função subset()
+?subset
+iris1 <- subset(iris, Sepal.Length > 7)
+View(iris1)
+
