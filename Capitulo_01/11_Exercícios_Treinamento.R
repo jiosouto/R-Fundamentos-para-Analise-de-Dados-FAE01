@@ -29,3 +29,5 @@ df
 View(df)
 
 
+# Exercício 5 - Transforme o dataframe anterior, em um dataframe nomeado com os seguintes labels:
+# c("config", "esfc", "chang")
