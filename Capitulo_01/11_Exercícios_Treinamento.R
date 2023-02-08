@@ -61,3 +61,10 @@ View(iris1)
 # divida o dataframe em um subset de 15 linhas
 # Dica 1: você vai ter que instalar e carregar o pacote dplyr
 # Dica 2: Consulte o help para aprender como usar a função slice()
+novo_iris <- iris
+novo_iris
+install.packages("dplyr")
+library(dplyr)
+?slice
+slice(novo_iris, 1:15)
+class(slice(novo_iris, 1:15))
