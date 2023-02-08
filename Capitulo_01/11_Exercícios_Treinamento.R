@@ -1,0 +1,11 @@
+# Lista de Exercícios do Capítulo
+
+# Configurando o diretório de trabalho
+# Colocar entre aspas o diretório de trabalho que você utilizado
+# Não usar diretórios com espaço no nome
+setwd("C:/DSA/BigDataRAzure/Cap01")
+getwd()
+
+# Exercício 1 - Crie um vetor com 30 números inteiros
+vec <- c(1:12)
+vec
