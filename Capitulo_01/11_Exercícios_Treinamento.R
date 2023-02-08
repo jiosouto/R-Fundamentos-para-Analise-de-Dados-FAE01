@@ -9,3 +9,6 @@ getwd()
 # Exercício 1 - Crie um vetor com 30 números inteiros
 vec <- c(1:12)
 vec
+
+
+# Exercício 2 - Crie uma matriz com 4 linhas e 4 colunas preenchida com números inteiros
