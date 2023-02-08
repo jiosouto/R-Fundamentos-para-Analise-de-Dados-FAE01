@@ -31,3 +31,6 @@ View(df)
 
 # Exercício 5 - Transforme o dataframe anterior, em um dataframe nomeado com os seguintes labels:
 # c("config", "esfc", "chang")
+names(df) = c("config", "esfc", "chang")
+names(df) = c("Col1", "Col2", "Col3")
+df
