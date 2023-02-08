@@ -21,3 +21,5 @@ lst <- list(vec, mat)
 lst
 
 
+# Exercício 4 - Usando a função read.table() leia o arquivo do link abaixo para uma dataframe
+# http://data.princeton.edu/wws509/datasets/effort.dat
