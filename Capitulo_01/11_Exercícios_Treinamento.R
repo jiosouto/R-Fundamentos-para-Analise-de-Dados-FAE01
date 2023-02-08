@@ -12,3 +12,7 @@ vec
 
 
 # Exercício 2 - Crie uma matriz com 4 linhas e 4 colunas preenchida com números inteiros
+mat <- matrix(c(1:16), nrow = 4, ncol = 4)
+mat
+
+
