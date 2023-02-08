@@ -16,3 +16,4 @@ mat <- matrix(c(1:16), nrow = 4, ncol = 4)
 mat
 
 
+# Exercício 3 - Crie uma lista unindo o vetor e matriz criados anteriormente
