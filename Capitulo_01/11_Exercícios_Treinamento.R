@@ -44,3 +44,6 @@ dim(iris)
 summary(iris)
 str(iris)
 View(iris)
+
+
+# Exercício 7 - Crie um plot simples usando as duas primeiras colunas do dataframe iris
