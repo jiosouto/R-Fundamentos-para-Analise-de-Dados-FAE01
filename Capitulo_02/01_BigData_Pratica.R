@@ -59,3 +59,18 @@ cidadesBrasil$Month <- month(cidadesBrasil$dt)
 cidadesBrasil$Year <- year(cidadesBrasil$dt)
 View(cidadesBrasil)
 
+# Carregando os subsets
+
+# Palmas
+plm <- subset(cidadesBrasil, City == 'Palmas')
+plm <- subset(plm, Year %in% c(1796,1846,1896,1946,1996,2012))
+
+# Curitiba
+crt <- subset(cidadesBrasil, City == 'Curitiba')
+crt <- subset(crt, Year %in% c(1796,1846,1896,1946,1996,2012))
+
+# Recife
+recf <- subset(cidadesBrasil, City=='Recife')
+recf <- subset(recf,Year %in% c(1796,1846,1896,1946,1996,2012))
+
+
