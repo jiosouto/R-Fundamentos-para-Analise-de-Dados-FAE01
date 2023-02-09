@@ -84,3 +84,4 @@ p_plm <- ggplot(plm, aes(x = (Month), y = AverageTemperature, color = as.factor(
   ggtitle("Temperatura Média ao longo dos anos em Palmas") +
   theme(plot.title = element_text(size = 18))
 
+p_plm
