@@ -74,3 +74,13 @@ recf <- subset(cidadesBrasil, City=='Recife')
 recf <- subset(recf,Year %in% c(1796,1846,1896,1946,1996,2012))
 
 
+# Construindo os Plots
+p_plm <- ggplot(plm, aes(x = (Month), y = AverageTemperature, color = as.factor(Year))) +
+  geom_smooth(se = FALSE,fill = NA, size = 2) +
+  theme_light(base_size = 20) +
+  xlab("Mês")+
+  ylab("Temperatura Média") +
+  scale_color_discrete("") +
+  ggtitle("Temperatura Média ao longo dos anos em Palmas") +
+  theme(plot.title = element_text(size = 18))
+
