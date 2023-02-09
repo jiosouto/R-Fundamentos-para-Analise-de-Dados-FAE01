@@ -93,7 +93,17 @@ p_crt <- ggplot(crt, aes(x = (Month), y = AverageTemperature, color = as.factor(
   ggtitle("Temperatura Média ao longo dos anos em Curitiba") +
   theme(plot.title = element_text(size = 18))
 
+p_recf <- ggplot(recf, aes(x = (Month), y = AverageTemperature, color = as.factor(Year))) +
+  geom_smooth(se = FALSE,fill = NA, size = 2) +
+  theme_light(base_size = 20) +
+  xlab("Mês")+
+  ylab("Temperatura Média") +
+  scale_color_discrete("") +
+  ggtitle("Temperatura Média ao longo dos anos em Recife") +
+  theme(plot.title = element_text(size = 18))
+
 
 # Plotando
 p_plm
 p_crt
+p_recf
