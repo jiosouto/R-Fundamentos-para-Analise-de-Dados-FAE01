@@ -41,3 +41,21 @@ system.time(df_teste2 <- read.table("TemperaturasGlobais/TemperaturasGlobais.csv
 system.time(df <- fread("TemperaturasGlobais/TemperaturasGlobais.csv"))
 
 
+# Criando subsets dos dados carregados
+cidadesBrasil <- subset(df, Country == 'Brazil')
+cidadesBrasil <- na.omit(cidadesBrasil)
+head(cidadesBrasil)
+View(cidadesBrasil)
+nrow(df)
+nrow(cidadesBrasil)
+dim(cidadesBrasil)
+
+
+# Preparação e Organização
+
+# Convertendo as Datas
+cidadesBrasil$dt <- as.POSIXct(cidadesBrasil$dt,format='%Y-%m-%d')
+cidadesBrasil$Month <- month(cidadesBrasil$dt)
+cidadesBrasil$Year <- year(cidadesBrasil$dt)
+View(cidadesBrasil)
+
